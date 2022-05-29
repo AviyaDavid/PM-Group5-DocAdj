@@ -34,7 +34,7 @@ export default function CalendarAdjustments({stored, startEditCallback }) {
         <h2 className='h2_adj'>Working Hours</h2>
         <div className='' >
             <div className= 'work_hours'>
-                <h3>Work From</h3>{stored.WorkFrom}
+                <h3>Work From {stored.WorkFrom}</h3>
            </div>
         <div className= 'work_hours'>
                  <h3>Work Until</h3>{stored.WorkUntil}
